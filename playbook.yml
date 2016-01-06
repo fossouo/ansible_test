@@ -1,0 +1,11 @@
+---
+- name : Prepare node for cloudera installation ;-) 
+  hosts : everybody
+  #remote_user : ubuntu 
+  sudo : yes
+  
+  roles : 
+    - oraclejava8
+    #- ntp
+    #- selinux
+    #- usersmgt
